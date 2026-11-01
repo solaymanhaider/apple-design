@@ -16,6 +16,7 @@ This skill turns Apple's Human Interface Guidelines into a working procedure for
 | `guides/technologies.md` | Every Apple technology page (Apple Pay, Sign in with Apple, Siri, CarPlay, HealthKit, and so on) with required wording and rules. |
 | `guides/foundations.md` | Condensed rules from all eighteen Foundations pages (accessibility, color, typography, layout, materials, icons, writing, privacy...). |
 | `guides/platforms.md` | What changes per platform: iOS, iPadOS, macOS, tvOS, visionOS, watchOS, iPhone Duo, games. Menu bar anatomy, window states, focus, spatial rules. |
+| `guides/diagrams.md` | What Apple's 411 diagrams and anatomy illustrations show, grouped by page: arrangements, states, and measurements that only appear in the pictures. |
 | `guides/web.md` | How to apply all of the above to a web app: CSS tokens, breakpoints mapped from size classes, materials, component-to-HTML/ARIA mapping, keyboard, accessibility. Clearly marked as a translation. |
 | `references/` | All 173 HIG pages as faithful Markdown, in Apple's section hierarchy, each with its source URL. `INDEX.md` lists them with summaries. |
 
@@ -24,7 +25,7 @@ This skill turns Apple's Human Interface Guidelines into a working procedure for
 1. **Start from the workflow.** Read `guides/workflow.md` and follow its steps in order. Write the brief and the information architecture before drawing or coding any screen.
 2. **Decide with the decision tables.** Navigation model: workflow Step 3. Presentation (alert, action sheet, sheet, popover, full screen, panel): workflow Step 4. Component choice: the table at the top of `guides/components.md`. Pattern for a moment in the app (first launch, sign-in, permission, error, empty state...): the table at the top of `guides/patterns.md`.
 3. **Take every value from the tokens.** Sizes, type, colors, spacing, and icon specs come from `guides/design-tokens.md`. If a number is not there and not in a reference page, say so and mark the value as a convention rather than presenting it as Apple's guidance.
-4. **Read the reference page before implementing a component or pattern.** The guides summarize; the reference page under `references/` has the full text, platform considerations, and developer API links. Cite the page (its `Source:` URL) in specs and reviews.
+4. **Read the reference page before implementing a component or pattern.** The guides summarize; the reference page under `references/` has the full text, platform considerations, and developer API links. For anatomy, layout arrangement, and states that Apple only shows in pictures, check the page's entry in `guides/diagrams.md`. Cite the page (its `Source:` URL) in specs and reviews.
 5. **Adapt per platform, do not port.** After the first platform, re-run workflow Steps 3 to 6 against `guides/platforms.md` for each additional platform, and `guides/web.md` for the web.
 6. **Review with the checklist below** and fix everything that fails before calling the work done.
 

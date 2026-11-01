@@ -12,6 +12,7 @@ What is inside
   - `foundations.md`: condensed rules from the eighteen Foundations pages
   - `platforms.md`: what changes on iOS, iPadOS, macOS, tvOS, visionOS, watchOS, iPhone Duo, and games
   - `web.md`: translation of the guidelines to web apps (CSS tokens, breakpoints, HTML and ARIA mapping)
+  - `diagrams.md`: what Apple's 411 diagrams and anatomy illustrations show, reviewed image by image
 - `references/`: all 173 HIG pages as Markdown in Apple's hierarchy, each with its source URL. `INDEX.md` lists them with summaries.
 - `scripts/update.py`: re-downloads the HIG and regenerates `references/`.
 

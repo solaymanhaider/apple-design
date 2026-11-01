@@ -368,6 +368,8 @@ Command-N new, Command-O open, Command-S save, Shift-Command-S duplicate or Save
 
 ## 8. Quick token sheet
 
+Rows marked "(diagram)" come from Apple's illustrations; see [diagrams.md](diagrams.md).
+
 | Token | Value | Source |
 |---|---|---|
 | Touch target | 44x44 pt (iOS, iPadOS, watchOS); 60x60 pt visionOS; 28x28 pt macOS default; 66x66 pt tvOS | Accessibility, Buttons |
@@ -390,3 +392,8 @@ Command-N new, Command-O open, Command-S save, Shift-Command-S duplicate or Save
 | Submenu | one level deep, about five items max | Menus |
 | Sidebar hierarchy | at most two levels | Sidebars |
 | Game initial download | 30 minutes or less | Designing for games |
+| Apple Pay button | at least 30 pt tall; 100 pt wide (logo only) or 140 pt wide (text); margins at least 1/10 of the button height; same size and corner radius as the neighboring custom button | Apple Pay (diagram) |
+| Snippet custom view | 400 pt maximum height | Snippets (diagram) |
+| iPadOS pointer hit region | 12 pt beyond a bezeled button, 24 pt beyond a bezel-less control, on every side | Pointing devices (diagram) |
+| Activity ring colors | Move R250 G17 B79, Exercise R166 G255 B0, Stand R0 G255 B246 | Activity rings |
+| Sticker rows | 4 per row Small, 3 Regular, 2 Large | iMessage apps and stickers (diagram) |
